@@ -1,0 +1,37 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.dark {
+    background-color: #000;
+}
+
+.gray-1 {
+    background-color: #171010;
+}
+
+.gray-2 {
+    background-color: #1c1c1c;
+}
+
+.hover-1:hover {
+    background-color: #000;
+}
+
+.hover-2:hover {
+    box-shadow: 5px 5px 10px #fff;
+}
